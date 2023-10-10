@@ -45,6 +45,11 @@ p{
   margin-left: 2px;
 }
 
+#links a:hover{
+  color: #257fec;
+  
+}
+
 #links .link-item{
   margin-bottom: 10px;
 }
@@ -78,9 +83,39 @@ p{
   text-align: center;
 }
 
-#third-container > p {
-  font-weight: bold;
+#third-container p {
+  font-size: 1.5rem;
+  font-weight:bold;
 }
+
+#third-container .first-paragraph > p{
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+
+
+#third-container button{
+  width: 180px;
+  height: 50px;
+  background-color: #9400FF;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom, #0e55a1, #9400FF);
+  color: #E4F1FF;
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+}
+
+#fourth-container p{
+  color: white;
+}
+
+
 @media (max-width: 768px) {
   .col-md-6.text-center {
       display: flex;
