@@ -25,7 +25,8 @@ p{
     }
   }
 
-  #banner > div > div > div.col-md-6.col-lg-8.col-xl-8.pt-5.my-5 > div.personal-info.text-start > h1,h3,h4{  margin-left: 30px;
+  #first-container h1,h3,h4{
+  margin-left: 30px;
   color:white;
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
@@ -138,7 +139,7 @@ p{
 @media(max-width: 992px)
 {
   #first-container, #second-container, #third-container, #forth-container {
-    height: 80vh;
+    height: 100vh;
   }
 }
 
