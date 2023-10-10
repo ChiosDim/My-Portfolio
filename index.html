@@ -7,26 +7,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="banner ">
-        <div class="container-fluid gradient-background">
-                    
+    <section id="banner">
+        <div class="container-fluid gradient-background" id="first-container">
             <div class="row">
-                 
-                <div class="col-md-4 col-lg-4 col-xl-4 pt-5 text-center">
-                    <img src="./images/profile-pic.jpg" class="img-fluid rounded-circle shadow-lg mb-4 float-end" alt="My Profile Picture"
+                <div class="col-md-6 col-lg-4 col-xl-4 pt-5 text-center d-flex justify-content-center justify-content-md-end">
+                    <img src="./images/profile-pic.jpg" class="img-fluid rounded-circle shadow-lg mb-4 " alt="My Profile Picture"
                     width="300" height="200" loading="lazy">
                 </div>
         
-                <div class="col-md-8 col-lg-8 col-xl-8 text-center pt-5 my-5">
+                <div class="col-md-6 col-lg-8 col-xl-8 pt-5 my-5  d-flex flex-column align-items-center justify-content-center align-items-md-start justify-content-md-center">
                     <!-- Personal Information -->
-                    <h1>Dimitris Chios</h1>
-                    <h2>Frontend Developer</h2>
-                    <h4>Thessaloniki, Greece</h4>
+                    <div class="personal-info text-start">
+                        <h1>Dimitris Chios</h1>
+                        <h3>Frontend Developer</h3>
+                        <h4>Thessaloniki, Greece</h4>
+                    </div>
                     
                     <!-- Contact Information -->
-                    <div class="col-6 mx-auto" id="links">
+                    <div class="col-6 my-5" id="links">
                         <div class="link-item" id="phone-number">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
                                 <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
@@ -54,17 +62,48 @@
     </section>
     
     <section id="interests">
-        <div class="container">
-            
+        <div class="container-fluid p-5" id="second-container">
+            <div class="row">
+                <div class="about-me-container col-lg-6 col-md-12 mb-4 d-flex align-items-center">
+                     <div class="text-center">
+                        <p>I started to program because I wanted to make my own video games as a video game enthusiast,
+                        but since then I have developed a passion for web application and site development🤩.</p>
+                    </div>
+                </div>
+                <div class="photo-container col-lg-6 col-md-12 mb-4 d-flex align-items-start justify-content-start">
+                    <div class="text-center">
+                        <img src="./images/coding.jpg" alt="image of code in a laptop" class="img-fluid" width="300">
+                    </div>
+                </div>
+                <div class="photo-container col-lg-6 col-md-12 mb-4 d-flex align-items-end justify-content-end">
+                    <div class="text-center">
+                        <img src="./images/piano.jpg" alt="image of a piano" class="img-fluid" width="300">
+                    </div>
+                </div>
+                <div class="about-me-container col-lg-6 col-md-12 mb-4 d-flex align-items-center">
+                    <div class="text-center">
+                        <p>My other big passion is playing the piano. I’m not saying  I’m good or anything, 
+                        but I’m trying my best😬. I also love working out and swimming!🏋️‍♂️🏊‍♂️</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="contact">
-        <div class="container">
-            
+        <div class="container-fluid p-5" id="third-container">
+            <div class="first-paragraph">
+                <p>Get In Touch</p>
+            </div>
+            <div class="second-paragraph">
+                <p>If you share some of my passions, feel free to contact me. <br>
+                <span>Maybe we can collaborate!</span></p>
+            </div>
+            <button type="button" class="btn btn-light">Contact Me</button>
+
         </div>
     </section>
     <section id="footer">
-        <div class="container">
+        <div class="container-fluid p-5" id="fourth-container">
             
         </div>
     </section>
